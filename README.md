@@ -113,7 +113,7 @@ Unlike naive avatar wrappers that attempt to generate heavy, slow video renders 
 
 - **Frontend Framework**: Next.js (App Router), React 19, TypeScript
 - **Styling**: Tailwind CSS v4, Lucide React icons, shadcn/ui design patterns
-- **AI & LLM Engine**: Google Gemini 2.5 Flash via `@google/genai` (Structured Outputs with strict JSON schemas)
+- **AI & LLM Engine**: Google Gemini  via `@google/genai` (Structured Outputs with strict JSON schemas)
 - **Knowledge Base & Vector Store**: Supabase PostgreSQL + `pgvector` extension with HNSW vector index
 - **Embeddings**: Google `gemini-embedding-001` (768-dimensional vectors)
 - **Document Ingestion**: `officeparser` (AST extraction for `.pdf`, `.docx`, `.pptx`, `.txt`)
@@ -224,7 +224,7 @@ Follow this exact demonstration workflow to experience EduMentor AI:
    - **Language**: `Hinglish`
    - **Time**: `10 min`
    - **Goal**: `Exam Prep`
-3. Click **Generate My Lesson Plan** $\rightarrow$ review the 3 generated sections on `/lesson`.
+3. Click **Build My Lesson** $\rightarrow$ review the 3 generated sections on `/lesson`.
 4. Click **Start Lesson** $\rightarrow$ enter the Teaching Room (`/teach`).
 5. **Section 1 Introduction**:
    - Observe Raj - Business AI Teacher video greeting and introducing the First Law of Motion (Inertia).
@@ -258,7 +258,7 @@ Follow this exact demonstration workflow to experience EduMentor AI:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/edumentor-ai.git
+git clone https://github.com/25cs249-create/edumentor-ai.git
 cd edumentor-ai
 
 # 2. Install dependencies
@@ -348,7 +348,7 @@ edumentor-ai/
 
 | Technology / Service | Provider | Implementation Purpose |
 |---|---|---|
-| **Google Gemini 2.5 Flash** | Google Cloud | Lesson planning, step teaching, answer evaluation, assessment generation |
+| **Google Gemini** | Google Cloud | Lesson planning, step teaching, answer evaluation, assessment generation |
 | **gemini-embedding-001** | Google Cloud | 768-dimensional text embeddings for RAG document chunks |
 | **Supabase PostgreSQL** | Supabase | Relational data storage and vector chunk storage |
 | **pgvector** | Open Source | Vector indexing (HNSW) and cosine similarity search |
@@ -386,4 +386,4 @@ edumentor-ai/
 
 ## 19. License
 
-License: Not specified for the hackathon prototype.
+License: This project was created for the AI Innovation Hackathon 2026. No open-source license is currently granted.
