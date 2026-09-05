@@ -4,6 +4,10 @@
 
 EduMentor AI is an adaptive AI Teacher that turns a topic or uploaded learning material into a personalized lesson, teaches through explanation + visuals + natural voice, checks understanding, detects misconceptions, adapts the teaching, and evaluates learning progress.
 
+## 🚀 Live Demo
+
+**Try EduMentor AI:** https://edumentor-ai-rouge.vercel.app/
+
 > [!IMPORTANT]
 > **Product Architecture Positioning**:  
 > **Tavus provides the human-like AI Teacher video introduction. It is NOT the adaptive teaching intelligence.**  
